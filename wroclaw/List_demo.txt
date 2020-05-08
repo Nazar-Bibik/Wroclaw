@@ -1,0 +1,15 @@
+370/D2/51.110037/17.057337/plac Grunwaldzki 9, 50-370 Wrocław/0/pic1/pi2/pic3
+01/D21/51.109642/17.058124/plac Grunwaldzki 11, 50-370 Wrocław/0/pic1/pi2/pic3
+02/D1/51.110287/17.058178/Janiszewskiego, 52-007 Wrocław/0/pic1/pi2/pic3
+03/B4/51.108089/17.065092/Łukasiewicza, 50-001 Wrocław/0/pic1/pi2/pic3
+04/C13/51.107345/17.059173/wybrzeże Stanisława Wyspiańskiego 23, 50-370 Wrocław/0/pic1/pi2/pic3
+05/C7/51.108855/17.058144/50-370 Wrocław/0/pic1/pi2/pic3
+06/A2/51.107291/17.063563/wybrzeże Stanisława Wyspiańskiego 29, 50-370 Wrocław/0/pic1/pi2/pic3
+07/B1/51.107690/17.064734/Smoluchowskiego 25, 50-370 Wrocław/0/pic1/pi2/pic3
+08/A5/51.108599/17.061989/50-370 Wrocław/0/pic1/pi2/pic3
+09/C2/51.108911/17.060901/Janiszewskiego, 52-007 Wrocław/0/pic1/pi2/pic3
+10/C3/51.108904/17.060137/Janiszewskiego, 52-007 Wrocław/0/pic1/pi2/pic3
+11/C6/51.108183/17.060496/52-007 Wrocław/0/pic1/pi2/pic3
+12/C18/51.10887570369595/51.10887570369595/ul. J.M. Hoene-Wrońskiego 10, 50-376 Wrocław/0/pic1/pi2/pic3
+198/Abragham Hotel/51.1/17.1/Janiszewskiego, 52-007 WrocławJaniszewskiego, 52-007 WrocławJaniszewskiego, 52-007 WrocławJaniszewskiego, 52-007 WrocławJaniszewskiego, 52-007 WrocławJaniszewskiego, 52-007 Wrocław/0/pic1/pi2/pic3
+14/Building Description

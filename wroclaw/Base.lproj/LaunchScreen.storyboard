@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LjM-KE-VZ4">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Zfs-VV-I0w">
+            <objects>
+                <viewController id="LjM-KE-VZ4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0GB-0M-2WC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin_logo" translatesAutoresizingMaskIntoConstraints="NO" id="qPW-bq-Uus">
+                                <rect key="frame" x="0.0" y="322" width="414" height="414"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qPW-bq-Uus" secondAttribute="height" multiplier="1:1" id="mXJ-qc-EPZ"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1DS-pD-YnY">
+                                <rect key="frame" x="0.0" y="20" width="414" height="302"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_Wroclaw" translatesAutoresizingMaskIntoConstraints="NO" id="ShA-Vy-kgh">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="302"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ShA-Vy-kgh" firstAttribute="centerX" secondItem="1DS-pD-YnY" secondAttribute="centerX" id="ZVA-W1-u1E"/>
+                                    <constraint firstAttribute="trailing" secondItem="ShA-Vy-kgh" secondAttribute="trailing" id="bJL-8u-o6F"/>
+                                    <constraint firstItem="ShA-Vy-kgh" firstAttribute="leading" secondItem="1DS-pD-YnY" secondAttribute="leading" id="fcj-N9-l3z"/>
+                                    <constraint firstItem="ShA-Vy-kgh" firstAttribute="centerY" secondItem="1DS-pD-YnY" secondAttribute="centerY" id="sfr-gb-Ks7"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.70196078429999997" green="0.1333333333" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Fp-VO-xJB" firstAttribute="trailing" secondItem="qPW-bq-Uus" secondAttribute="trailing" id="2iL-VB-HJQ"/>
+                            <constraint firstItem="1DS-pD-YnY" firstAttribute="top" secondItem="4Fp-VO-xJB" secondAttribute="top" id="EPE-99-O2K"/>
+                            <constraint firstItem="1DS-pD-YnY" firstAttribute="leading" secondItem="4Fp-VO-xJB" secondAttribute="leading" id="P6h-Jy-REf"/>
+                            <constraint firstItem="4Fp-VO-xJB" firstAttribute="trailing" secondItem="1DS-pD-YnY" secondAttribute="trailing" id="V0R-fw-opN"/>
+                            <constraint firstItem="qPW-bq-Uus" firstAttribute="bottom" secondItem="0GB-0M-2WC" secondAttribute="bottom" id="n51-Ju-drE"/>
+                            <constraint firstItem="qPW-bq-Uus" firstAttribute="top" secondItem="1DS-pD-YnY" secondAttribute="bottom" id="nKq-oo-gx7"/>
+                            <constraint firstItem="qPW-bq-Uus" firstAttribute="leading" secondItem="0GB-0M-2WC" secondAttribute="leading" id="uh2-aK-EEV"/>
+                            <constraint firstItem="qPW-bq-Uus" firstAttribute="centerX" secondItem="0GB-0M-2WC" secondAttribute="centerX" id="vOq-ck-7dX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4Fp-VO-xJB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="66S-Pd-QIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-625" y="-149"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_Wroclaw" width="80" height="13"/>
+        <image name="pin_logo" width="424" height="448"/>
+    </resources>
+</document>
